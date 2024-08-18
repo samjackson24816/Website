@@ -5,12 +5,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-
-    "github": {
-      "repo": "samjackson24816/Website",
-      "branch": "main"
-
-    }
+    ]
   }
 }
