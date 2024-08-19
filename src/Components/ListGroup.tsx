@@ -8,6 +8,7 @@ function ListGroup() {
   const message = items.length === 0 && <p>No item found</p>;
 
   let selectedIndex = -1;
+  console.log(selectedIndex);
   return (
     <>
       <h1>List</h1>
