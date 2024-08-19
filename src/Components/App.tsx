@@ -1,13 +1,11 @@
-import List from './List.tsx'
+import ListGroup from "./ListGroup";
 
 function App() {
-  return  (
-  <div>
-    <h1>Hello from React</h1>
-    <p>{List()}</p>
-  </div>
-  )
+  return (
+    <div>
+      <ListGroup />
+    </div>
+  );
 }
 
-
-export default App
+export default App;
