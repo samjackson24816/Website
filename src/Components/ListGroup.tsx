@@ -3,7 +3,9 @@ import { MouseEvent } from "react";
 function ListGroup() {
   let items = ["new york", "london", "boston", "chicago"];
 
-  const handleClick = (event: MouseEvent) => console.log(event);
+  const handleClick = (event: MouseEvent) => {
+    console.log(event);
+  };
 
   const message = items.length === 0 && <p>No item found</p>;
 
